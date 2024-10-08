@@ -1,18 +1,17 @@
 export const projects = [
   {
     id: "1",
-    title: "Ligat Haal X, Interactive Grid Game",
+    title: "AOT Website",
     description:
-      "Developed a dynamic web app displaying an interactive grid of football team logos, with a player search functionality using Next.js and TailwindCSS. Integrated Prisma ORM with Azure SQL Server for database management and deployed on Vercel. Implemented server-side rendering, API routes, and cron jobs for weekly data cache updates",
+      "Took the initiative to develop and implement an interactive website (Frontend and backend) assisting the company's security team. The website facilitated streamlined work arrangement submissions, provided a platform for forums, and fulfilled various workrelated requirements.",
     tags: [
-      "Next.js",
-      "TailwindCSS",
-      "Azure Functions",
-      "Azure SQL Server",
-      "Vercel",
+      "NodeJs",
+      "JavaScript",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Heroku",
     ],
-    url: "/projects/1",
-    youtubeUrl: "https://www.ligathaalx.com/",
     projectPage: {
       title: "Ligat Haal X, Interactive Grid",
       description:
@@ -60,40 +59,34 @@ export const projects = [
   },
   {
     id: 2,
-    title: "this website",
+    title: "Vector Classifier",
     description:
-      "Built a personal portfolio website using Next.js, Tailwind CSS, and TypeScript. Implemented SEO optimization and a responsive design",
-    tags: ["Next.js", "Tailwind CSS", "TypeScript"],
-    githubUrl: "https://github.com/yuvalysh0/portfolio",
+      "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
+    tags: ["C++", "KNN", "Algorithm"],
   },
 
   {
     id: 3,
-    title: "Startup Booster - Incharge Payment Processing System",
+    title: "Whatsapp Clone",
     description:
-      "Led the frontend development using React, integrating multiple payment methods like DTS and Multipass to enhance the payment experience.",
-    tags: ["React", "JavaScript", "NextJS"],
+      "Developed a website (MERN) and Android application for chat service like WhatsApp, using Client-Server",
+    tags: ["React", "JavaScript", "NodeJs", "SQL", "MongoDB", "AndroidStudio", "WebSockets", "Express", "MVC", "MVVM"],
+    githubUrl: "https://github.com/idoziv15/whatsapp_clone"
   },
   {
     id: 4,
-    title: "Startup Booster - Hadassah Hospital Web Platform",
+    title: "Arknoid Game",
     description:
-      "Improved user experience and accessibility by implementing responsive design and dynamic features, ensuring compliance with accessibility standards.",
-    tags: ["React", "JavaScript", "NextJS"],
+      "Developed an Arknoid game in Java, implementing design patterns and OOP principles.",
+    tags: ["Java", "OOP"],
+    githubUrl: "https://github.com/idoziv15/Arknoid_Game"
   },
   {
     id: 5,
-    title: "IronSource - Mobile Development",
+    title: "Mortgage Master",
     description:
-      'Transitioned to mobile development, mastering Unity3D, Android, and iOS. Developed an automatic release process and created the "Alpha Package" tool for easier SDK implementation and testing.',
-    tags: ["Unity3D", "Android", "iOS"],
-  },
-  {
-    id: 6,
-    title: "FriendsBook",
-    description:
-      "Developed a social app with CSS, Vue.js, Vuex, and Firebase. Created functionalities for posting, liking, commenting, and real-time updates to deliver a seamless social media experience",
-    tags: ["Vue.js", "Vuex", "Firebase"],
-    youtubeUrl: "https://www.youtube.com/watch?v=burhfu39e-U&feature=youtu.be",
+      'I developed a web system for real-estate investments in my final studies project. The platform is designed to assist users in making informed real estate investment decisions by providing comprehensive, quantitative analysis of potential property investments. The core problem the system aims to solve is helping investors compare real estate investments with other investment opportunities, such as the stock market, by offering a detailed assessment of key financial metrics of their investments.',
+    tags: ["Flask", "Python", "NumPy", "React", "MongoDB"],
+    githubUrl: "https://github.com/idoziv15/MortgageMaster"
   },
 ];

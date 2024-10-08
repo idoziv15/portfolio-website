@@ -2,14 +2,6 @@ import { iconName } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 export const techStack = [
   {
-    iconName: "html5",
-    name: "HTML",
-  },
-  {
-    iconName: "css3-alt",
-    name: "CSS",
-  },
-  {
     iconName: "js-square",
     name: "Javascript",
   },

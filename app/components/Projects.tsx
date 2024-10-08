@@ -38,7 +38,7 @@ const Projects = () => {
                 GitHub
               </Link>
             )}
-            {project.youtubeUrl && (
+            {/* {project.youtubeUrl && (
               <Link
                 href={project.youtubeUrl}
                 target="_blank"
@@ -51,7 +51,7 @@ const Projects = () => {
               <Link href={project.url} className="btn btn-outline btn-sm">
                 View More
               </Link>
-            )}
+            )} */}
           </div>
         </div>
       ))}
