@@ -1,40 +1,34 @@
-import { iconName } from "@fortawesome/free-brands-svg-icons/fa42Group";
-
-export const techStack = [
-  {
-    iconName: "js-square",
-    name: "Javascript",
-  },
-  {
-    iconName: "react",
-    name: "React",
-  },
-  {
-    iconName: "node-js",
-    name: "Nodejs",
-  },
-  {
-    iconName: "git-alt",
-    name: "Git",
-  },
-  {
-    iconName: "linux",
-    name: "Linux",
-  },
-  {
-    iconName: "android",
-    name: "Android",
-  },
-  {
-    iconName: "jira",
-    name: "Jira",
-  },
-  {
-    iconName: "python",
-    name: "Python",
-  },
-  {
-    iconName: "java",
-    name: "Java",
-  },
-];
+export const techStack = {
+  technologies: [
+    { iconName: "react", name: "React" },
+    { iconName: "git-alt", name: "Git" },
+    { iconName: "linux", name: "Linux" },
+    { iconName: "android", name: "Android" },
+    { iconName: "jira", name: "Jira" },
+    { iconName: "/icons/mongodb.ico", name: "MongoDB" },
+    { iconName: "/icons/next-js.svg", name: "NextJS" },
+    { iconName: "/icons/numpy.svg", name: "NumPy" },
+    { iconName: "/icons/websocket.svg", name: "WebSockets" },
+    { iconName: "/icons/jquery.svg", name: "Jquery" },
+  ],
+  languages: [
+    { iconName: "python", name: "Python" },
+    { iconName: "java", name: "Java" },
+    { iconName: "js-square", name: "JavaScript" },
+    { iconName: "node-js", name: "Node.js" },
+    { iconName: "/icons/sql.svg", name: "SQL" },
+    { iconName: "/icons/C.svg", name: "C" },
+    { iconName: "/icons/c++.svg", name: "C++" },
+    { iconName: "/icons/Csharp.svg", name: "C#" },
+    { iconName: "/icons/bash.svg", name: "Bash" },
+  ],
+  principles: [
+    { iconName: "/icons/protocols.ico", name: "TCP-IP, UDP" },
+    { iconName: "/icons/OOP.ico", name: "Object-Oriented Programming" },
+    { iconName: "/icons/parallel-tasks.svg", name: "Parallel Programming" },
+    { iconName: "/icons/mvc.ico", name: "MVC" },
+    { iconName: "/icons/mvvm.ico", name: "MVVC" },
+    { iconName: "/icons/mern.svg", name: "MERN" },
+    { iconName: "/icons/api.svg", name: "RESTful APIs" },
+  ],
+};

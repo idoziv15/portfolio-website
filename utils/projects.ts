@@ -1,6 +1,14 @@
 export const projects = [
   {
-    id: "1",
+    id: 1,
+    title: "Mortgage Master",
+    description:
+      'I developed a web system for real-estate investments in my final studies project. The platform is designed to assist users in making informed real estate investment decisions by providing comprehensive, quantitative analysis of potential property investments. The core problem the system aims to solve is helping investors compare real estate investments with other investment opportunities, such as the stock market, by offering a detailed assessment of key financial metrics of their investments.',
+    tags: ["Flask", "Python", "NumPy", "React", "MongoDB"],
+    githubUrl: "https://github.com/idoziv15/MortgageMaster"
+  },
+  {
+    id: 2,
     title: "AOT Website",
     description:
       "Took the initiative to develop and implement an interactive website (Frontend and backend) assisting the company's security team. The website facilitated streamlined work arrangement submissions, provided a platform for forums, and fulfilled various workrelated requirements.",
@@ -58,14 +66,6 @@ export const projects = [
     },
   },
   {
-    id: 2,
-    title: "Vector Classifier",
-    description:
-      "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
-    tags: ["C++", "KNN", "Algorithm"],
-  },
-
-  {
     id: 3,
     title: "Whatsapp Clone",
     description:
@@ -83,10 +83,10 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Mortgage Master",
+    title: "Vector Classifier",
     description:
-      'I developed a web system for real-estate investments in my final studies project. The platform is designed to assist users in making informed real estate investment decisions by providing comprehensive, quantitative analysis of potential property investments. The core problem the system aims to solve is helping investors compare real estate investments with other investment opportunities, such as the stock market, by offering a detailed assessment of key financial metrics of their investments.',
-    tags: ["Flask", "Python", "NumPy", "React", "MongoDB"],
-    githubUrl: "https://github.com/idoziv15/MortgageMaster"
+      "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
+    tags: ["C++", "KNN", "Algorithm"],
   },
+  
 ];

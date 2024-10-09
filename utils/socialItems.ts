@@ -4,5 +4,4 @@ export const socialItems = [
     icon: "linkedin-in",
   },
   { link: "https://github.com/idoziv15", icon: "github" },
-  { link: "https://www.instagram.com/ido_ziv/", icon: "instagram" },
 ];
