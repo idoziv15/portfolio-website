@@ -5,7 +5,9 @@ export const projects = [
     description:
       'I developed a web system for real-estate investments in my final studies project. The platform is designed to assist users in making informed real estate investment decisions by providing comprehensive, quantitative analysis of potential property investments. The core problem the system aims to solve is helping investors compare real estate investments with other investment opportunities, such as the stock market, by offering a detailed assessment of key financial metrics of their investments.',
     tags: ["Flask", "Python", "NumPy", "React", "MongoDB"],
-    githubUrl: "https://github.com/idoziv15/MortgageMaster"
+    githubUrl: "https://github.com/idoziv15/MortgageMaster",
+    url: "",
+    imageUrl: "/mortgage-master.png"
   },
   {
     id: 2,
@@ -64,6 +66,8 @@ export const projects = [
         },
       ],
     },
+    url: "",
+    imageUrl: "aot.png"
   },
   {
     id: 3,
@@ -71,7 +75,9 @@ export const projects = [
     description:
       "Developed a website (MERN) and Android application for chat service like WhatsApp, using Client-Server",
     tags: ["React", "JavaScript", "NodeJs", "SQL", "MongoDB", "AndroidStudio", "WebSockets", "Express", "MVC", "MVVM"],
-    githubUrl: "https://github.com/idoziv15/whatsapp_clone"
+    githubUrl: "https://github.com/idoziv15/whatsapp_clone",
+    url: "",
+    imageUrl: "/whatsapp-clone.png"
   },
   {
     id: 4,
@@ -79,7 +85,9 @@ export const projects = [
     description:
       "Developed an Arknoid game in Java, implementing design patterns and OOP principles.",
     tags: ["Java", "OOP"],
-    githubUrl: "https://github.com/idoziv15/Arknoid_Game"
+    githubUrl: "https://github.com/idoziv15/Arknoid_Game",
+    url: "",
+    imageUrl: "/arknoid.png"
   },
   {
     id: 5,
@@ -87,6 +95,7 @@ export const projects = [
     description:
       "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
     tags: ["C++", "KNN", "Algorithm"],
+    url: "",
+    imageUrl: "/knn.png"
   },
-  
 ];
