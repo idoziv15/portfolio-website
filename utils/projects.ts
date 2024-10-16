@@ -75,7 +75,7 @@ export const projects = [
     description:
       "Developed a website (MERN) and Android application for chat service like WhatsApp, using Client-Server",
     tags: ["React", "JavaScript", "NodeJs", "SQL", "MongoDB", "AndroidStudio", "WebSockets", "Express", "MVC", "MVVM"],
-    githubUrl: "https://github.com/idoziv15/whatsapp_clone",
+    githubUrl: "https://github.com/idoziv15/whatsapp-clone",
     url: "",
     imageUrl: "/whatsapp-clone.png"
   },
