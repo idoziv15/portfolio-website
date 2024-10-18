@@ -11,6 +11,56 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Neural Network",
+    description:
+      'This project demonstrates essential machine learning techniques using Python, focusing on data preprocessing, model training, and evaluation with algorithms such as classification and regression. I built, trained, and assessed machine learning models through various performance metrics and cross-validation.',
+    tags: ["Python", "NumPy", "Pandas", "Matplotlib", "Jupyter", "Supervised Learning", "PyTorch", "CNN"],
+    githubUrl: "https://github.com/idoziv15/Neural_Network",
+    url: "",
+    imageUrl: "/neutral-network.svg"
+  },
+  {
+    id: 2,
+    title: "Multithreaded News System",
+    description:
+      "The purpose of this project is to gain experience with concurrent programming and synchronization mechanisms. The scenario simulates a news broadcasting system, where different types of stories are produced, sorted, and displayed to the public. The assignment involves four types of active actors: Producers, Dispatcher, Co-Editors, and Screen Manager. The Producers generate strings representing news stories and send them to the Dispatcher. The Dispatcher sorts the stories based on their type and sends them to the corresponding Co-Editors. The Co-Editors edit the stories and pass them to the Screen Manager. Finally, the Screen Manager displays the stories on the screen. Each of them works in a different thread, allowing the system to work simultaneously. The system includes a bounded buffer, which is used as a queue between the Producers and the Dispatcher, as well as between the Co-Editors and the Screen Manager. This desgind needs to face the Producer–consumer problem. The Dispatcher's queues are unbounded buffers.",
+    tags: ["TCP", "C", "Multithreaded", "Linux"],
+    githubUrl: "https://github.com/idoziv15/Multithreaded-News-System",
+    url: "",
+    imageUrl: "/Multithreaded-News-System.png"
+  },
+  {
+    id: 3,
+    title: "Whatsapp Clone",
+    description:
+      "Developed a website (MERN) and Android application for chat service like WhatsApp, using Client-Server",
+    tags: ["React", "JavaScript", "NodeJs", "SQL", "MongoDB", "AndroidStudio", "WebSockets", "Express", "MVC", "MVVM"],
+    githubUrl: "https://github.com/idoziv15/whatsapp-clone",
+    url: "",
+    imageUrl: "/whatsapp-clone.png"
+  },
+  {
+    id: 4,
+    title: "Vector Classifier",
+    description:
+      "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
+    tags: ["C++", "KNN", "Algorithm", "TCP"],
+    githubUrl: "https://github.com/idoziv15/KNN_classifier",
+    url: "",
+    imageUrl: "/knn.png"
+  },
+  {
+    id: 5,
+    title: "Arknoid Game",
+    description:
+      "Developed an Arknoid game in Java, implementing design patterns and OOP principles.",
+    tags: ["Java", "OOP"],
+    githubUrl: "https://github.com/idoziv15/Arknoid_Game",
+    url: "",
+    imageUrl: "/arknoid.png"
+  },
+  {
+    id: 6,
     title: "AOT Website",
     description:
       "Took the initiative to develop and implement an interactive website (Frontend and backend) assisting the company's security team. The website facilitated streamlined work arrangement submissions, provided a platform for forums, and fulfilled various workrelated requirements.",
@@ -68,34 +118,5 @@ export const projects = [
     },
     url: "",
     imageUrl: "aot.png"
-  },
-  {
-    id: 3,
-    title: "Whatsapp Clone",
-    description:
-      "Developed a website (MERN) and Android application for chat service like WhatsApp, using Client-Server",
-    tags: ["React", "JavaScript", "NodeJs", "SQL", "MongoDB", "AndroidStudio", "WebSockets", "Express", "MVC", "MVVM"],
-    githubUrl: "https://github.com/idoziv15/whatsapp-clone",
-    url: "",
-    imageUrl: "/whatsapp-clone.png"
-  },
-  {
-    id: 4,
-    title: "Arknoid Game",
-    description:
-      "Developed an Arknoid game in Java, implementing design patterns and OOP principles.",
-    tags: ["Java", "OOP"],
-    githubUrl: "https://github.com/idoziv15/Arknoid_Game",
-    url: "",
-    imageUrl: "/arknoid.png"
-  },
-  {
-    id: 5,
-    title: "Vector Classifier",
-    description:
-      "A project in C++ about vector classification using the KNN algorithm and a multithreading server-client connection.",
-    tags: ["C++", "KNN", "Algorithm"],
-    url: "",
-    imageUrl: "/knn.png"
   },
 ];
