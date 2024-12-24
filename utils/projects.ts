@@ -1,6 +1,26 @@
 export const projects = [
   {
     id: 1,
+    title: "Autonomous Taxi Service",
+    description:
+      'Welcome to the Autonomous Taxi Service Simulation, a live simulation of an autonomous taxi service operating in a futuristic city, futureTLV.\nThis project simulates an autonomous taxi service, where:\n10 taxis move on a 20km x 20km city grid.\nTaxis operate at 72km/h (20 meters/second), restricted to X and Y axes with 90-degree turns.\nThe system processes ride requests every 20 seconds, assigning the nearest available taxi.',
+    tags: ["FastAPI", "Python", "Redis", "RabbitMQ", "Nginx", "Docker", "Micro-Services"],
+    githubUrl: "https://github.com/idoziv15/autonomous-taxi-service",
+    url: "",
+    imageUrl: "/autonomous_taxi.jpg"
+  },
+  {
+    id: 2,
+    title: "Segmentation Model API",
+    description:
+      'This project provides tools for converting a PyTorch model to ONNX format, running inferences using the converted model, and serving predictions through an API and Client interactions',
+    tags: ["FastAPI", "Python", "NumPy", "PyTorch", "ONNX", "Docker"],
+    githubUrl: "https://github.com/idoziv15/SegmentationModelProject",
+    url: "",
+    imageUrl: "/segmentation_model.png"
+  },
+  {
+    id: 3,
     title: "Mortgage Master",
     description:
       'I developed a web system for real-estate investments in my final studies project. The platform is designed to assist users in making informed real estate investment decisions by providing comprehensive, quantitative analysis of potential property investments. The core problem the system aims to solve is helping investors compare real estate investments with other investment opportunities, such as the stock market, by offering a detailed assessment of key financial metrics of their investments.',
