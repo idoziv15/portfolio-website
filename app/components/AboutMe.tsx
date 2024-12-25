@@ -28,7 +28,7 @@ const AboutMe = () => {
       <Tabs categories={techStack} />
 
       <Link
-        href="/Ido Ziv - CV.pdf"
+        href="/IDO ZIV - CV.pdf"
         target="_blank"
         download="Ido Ziv CV"
         className="btn md:btn-wide btn-primary text-primary-content font-normal mx-auto mt-8 md:mt-14"
