@@ -18,17 +18,17 @@ const AboutMe = () => {
       </h1>
       <p className="text-lg md:text-xl font-light mb-4">
         {aboutMe.description.split("'").map((part, i, arr) => 
-          i === arr.length - 1 ? part : <React.Fragment key={i}>{part}&apos;</React.Fragment>
+          i === arr.length - 1 ? part : <React.Fragment key={i}>{part}</React.Fragment>
         )}
       </p>
 
       <h2 className={`text-lg md:text-xl font-medium mb-2`}>
-        Technologies I&apos;ve worked with:
+        Technologies I've worked with:
       </h2>
       <Tabs categories={techStack} />
 
       <Link
-        href="/IDO ZIV - CV .pdf"
+        href="/IDO ZIV - CV.pdf"
         target="_blank"
         download="Ido Ziv CV"
         className="btn md:btn-wide btn-primary text-primary-content font-normal mx-auto mt-8 md:mt-14"

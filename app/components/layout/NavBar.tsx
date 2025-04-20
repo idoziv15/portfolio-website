@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <nav className="sticky navbar top-0 w-screen md:w-full flex justify-between items-center py-4 px-8 bg-base-100 z-50">
       <Link href="/" className={playfair.className}>
-        Print(Console.log( IDO ZIV ));
+        IDO ZIV SITE
       </Link>
       <div className="hidden md:flex gap-4">
         {links.map(({ href, label }) => (
